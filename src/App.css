@@ -1,0 +1,100 @@
+.todo-app {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgb(19, 154, 109);
+  font-weight: bold;
+}
+.add-todo {
+  margin-bottom: 20px;
+  margin-left: 14rem !important ;
+}
+.add-todo input {
+  margin-left: 3rem;
+  padding-top: 0.5rem;
+  padding-left: 1.2rem;
+  padding-bottom: 0.5rem;
+  padding-right: 7rem;
+  border-radius: 6px;
+  border-color: rgb(82, 247, 192);
+}
+.add-todo button {
+  margin-left: 3rem;
+  padding: 7px 45px 7px 45px;
+  border-radius: 5px;
+  background-color: rgb(19, 154, 109);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-style: none;
+}
+.todo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(191, 244, 226);
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+
+.status {
+  cursor: pointer;
+  margin-right: 10px;
+}
+.filter-heading {
+  margin-left: 7rem;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1rem;
+}
+.filter {
+  margin-bottom: 20px;
+  float: right;
+  margin-right: 4rem;
+}
+.status-filter {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.card-btn {
+  margin-top: 4rem;
+  float: right;
+}
+.delete-btn {
+  background-color: rgb(241, 141, 9);
+  margin-left: 0.5rem;
+  border-radius: 7px;
+  padding: 5px 25px 5px 25px;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+}
+.edit-btn {
+  background-color: rgb(19, 154, 109);
+  border-radius: 7px;
+  padding: 5px 25px 5px 25px;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+}
+select {
+  background-color: palevioletred;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+}
